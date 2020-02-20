@@ -1,0 +1,7 @@
+<library path="lib/libsync_pointcloud_nodelet">
+  <class name="sync_pointcloud/SyncPointcloudNodelet" type="sync_pointcloud::SyncPointcloudNodelet" base_class_type="nodelet::Nodelet">
+    <description>
+      Sync depth image and mask and publish pointcloud
+    </description>
+  </class>
+</library>

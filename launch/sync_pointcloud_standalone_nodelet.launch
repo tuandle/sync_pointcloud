@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+  <node pkg="nodelet" type="nodelet" name="sensor_nodelet_manager" args="manager" output="screen"/>
+  <node pkg="nodelet" type="nodelet" name="sync_pointcloud" args="load sync_pointcloud/SyncPointcloudNodelet sensor_nodelet_manager" output="screen">
+  	<param name="queue_size" value="2"/>
+  </node>
+</launch>
