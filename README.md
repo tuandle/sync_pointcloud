@@ -1,0 +1,2 @@
+[![Build Status](https://travis-ci.org/tuandle/sync_pointcloud.svg?branch=master)](https://travis-ci.org/tuandle/sync_pointcloud)
+A simple nodelet to synchronize a depth image stream with a mask image stream. The result is a filtered pointcloud.
